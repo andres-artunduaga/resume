@@ -1,0 +1,153 @@
+{
+  "header": {
+    "name": "Andrés Artunduaga",
+    "email": "andres.artunduaga@outlook.com",
+    "phone": "+57 319 503 6643",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://r2n.dev"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andres-artunduaga"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/andres-artunduaga"
+      }
+    ]
+  },
+  "summary": "Software developer with extensive experience in design systems and component reusability. Over 7 years of expertise in frontend development using React, Angular, JavaScript, and TypeScript. Skilled in global agile teams and proficient in tools such as Git, RESTful services, and web application development.",
+  "employmentHistory": [
+    {
+      "company": "Proxet",
+      "role": "Senior Frontend Engineer",
+      "startDate": "2023-08-01",
+      "endDate": "Present",
+    "summary": "Led the migration to React + TypeScript, developed reusable components, and created web extensions.",
+      "location": "Bogotá D.C., Colombia",
+      "responsibilities": [
+        "Migrated applications from Angular 13 to React + TypeScript",
+        "Developed reusable components and enhanced user experience",
+        "Created web extensions for additional product functionalities",
+        "Designed mockups for new design proposals and extensions"
+      ]
+    },
+    {
+      "company": "Newfire Global Partners",
+      "role": "Senior Angular Developer",
+      "startDate": "2023-05-01",
+      "endDate": "2023-08-01",
+      "summary": "Developed, maintained, and deployed features for the TruCare application using Angular 13.",
+      "location": "Remote",
+      "responsibilities": [
+        "Developed, maintained, and deployed features for the TruCare application using Angular 13"
+      ]
+    },
+    {
+      "company": "Terminal Inc",
+      "role": "Senior Software Engineer, Frontend",
+      "startDate": "2022-01-01",
+      "endDate": "2023-03-01",
+      "summary": "Implemented features for therapist platforms using Angular 12+. Maintained and deployed Flutter mobile applications. Collaborated with QA and design teams to complete features.",
+      "location": "Remote",
+      "responsibilities": [
+        "Implemented features for therapist platforms using Angular 12+",
+        "Maintained and deployed Flutter mobile applications",
+        "Collaborated with QA and design teams to complete features"
+      ]
+    },
+    {
+      "company": "Commure",
+      "role": "Engineer II",
+      "startDate": "2021-09-01",
+      "endDate": "2022-01-01",
+      "summary": "Researched micro frontends using SingleSPA JS. Built reusable components in Angular and React with StencilJS. Developed and fixed issues in the Listrunner platform using React.",
+      "location": "Remote",
+      "responsibilities": [
+        "Researched micro frontends using SingleSPA JS",
+        "Built reusable components in Angular and React with StencilJS",
+        "Developed and fixed issues in the Listrunner platform using React"
+      ]
+    },
+    {
+      "company": "Commure",
+      "role": "Engineer I",
+      "startDate": "2020-09-01",
+      "endDate": "2021-08-01",
+      "summary": "Developed features and fixed bugs for the Listrunner platform. Integrated Sentry and Intercom services. Researched CSS frameworks for component libraries.",
+      "location": "Bogotá D.C., Colombia",
+      "responsibilities": [
+        "Developed features and fixed bugs for the Listrunner platform",
+        "Integrated Sentry and Intercom services",
+        "Researched CSS frameworks for component libraries"
+      ]
+    },
+    {
+      "company": "Merlin",
+      "role": "Frontend Developer",
+      "startDate": "2019-09-01",
+      "endDate": "2020-08-01",
+      "summary": "Developed responsive web pages using Angular 7+. Optimized performance and applied SEO techniques.",
+      "location": "Bogotá D.C., Colombia",
+      "responsibilities": [
+        "Developed responsive web pages using Angular 7+",
+        "Optimized performance and applied SEO techniques"
+      ]
+    },
+    {
+      "company": "Alert Logic",
+      "role": "Associate Engineer",
+      "startDate": "2017-10-01",
+      "endDate": "2019-09-01",
+      "summary": "Developed responsive user interfaces with Angular 5+. Migrated legacy apps to Angular 2+.",
+      "location": "Santiago de Cali, Colombia",
+      "responsibilities": [
+        "Developed responsive user interfaces with Angular 5+",
+        "Migrated legacy apps to Angular 2+"
+      ]
+    },
+    {
+      "company": "Alert Logic",
+      "role": "Web Developer Intern",
+      "startDate": "2016-07-01",
+      "endDate": "2017-07-01",
+      "summary": "Increased test coverage for PHP and AngularJS applications. Automated tasks and generated technical documentation.",
+      "location": "Santiago de Cali, Colombia",
+      "responsibilities": [
+        "Increased test coverage for PHP and AngularJS applications",
+        "Automated tasks and generated technical documentation"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "React",
+      "Angular",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "personal": ["Problem-solving", "Team collaboration", "Communication"],
+    "languages": [
+      {
+        "name": "Spanish",
+        "proficiency": "Native"
+      },
+      {
+        "name": "English",
+        "proficiency": "Professional"
+      }
+    ],
+    "soft": ["Leadership", "Time management", "Adaptability"]
+  },
+  "education": [
+    {
+      "institution": "Universidad del Valle",
+      "degree": "B.Sc. in Systems Engineering and Computer Science",
+      "location": "Santiago de Cali, Colombia"
+    }
+  ]
+}

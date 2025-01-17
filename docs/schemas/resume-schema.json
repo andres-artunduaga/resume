@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resume",
+  "type": "object",
+  "properties": {
+    "header": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "url": { "type": "string", "format": "uri" }
+            },
+            "required": ["label", "url"]
+          }
+        }
+      },
+      "required": ["name", "email", "phone", "links"]
+    },
+    "summary": {
+      "type": "string",
+      "description": "Professional summary highlighting key skills and focus areas."
+    },
+    "employmentHistory": {
+      "type": "array",
+      "description": "List of previous roles and responsibilities. Most recent first.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "company": { "type": "string" },
+          "role": { "type": "string" },
+          "startDate": { "type": "string", "format": "date" },
+          "endDate": { "type": "string", "format": "date" },
+          "summary": { "type": "string" },
+          "location": { "type": "string" },
+          "responsibilities": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": [
+          "company",
+          "role",
+          "startDate",
+          "endDate",
+          "location",
+          "responsibilities"
+        ]
+      }
+    },
+    "skills": {
+      "type": "object",
+      "description": "List of technical, personal, language, and soft skills.",
+      "properties": {
+        "technical": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "personal": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "proficiency": { "type": "string" }
+            },
+            "required": ["name", "proficiency"]
+          }
+        },
+        "soft": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["technical", "personal", "languages", "soft"]
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "institution": { "type": "string" },
+          "degree": { "type": "string" },
+          "location": { "type": "string" }
+        },
+        "required": ["institution", "degree", "location"]
+      }
+    }
+  },
+  "required": ["header", "summary", "employmentHistory", "skills", "education"]
+}
