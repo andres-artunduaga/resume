@@ -2,8 +2,8 @@
 :root {
     /* Palette */
     --primary-color: #020024;
-    --secondary-color: #0f96b1; /* #0f96b1 */
-    --tertiary-color: #5021d3;
+    --secondary-color: #0f96b1;
+    --tertiary-color: #0000ff;
     --dark-color: #333;
     --light-color: white;
 
@@ -66,7 +66,6 @@ a {
     text-decoration: none;
     &:hover {
         text-decoration: underline;
-        color: red;
     }
 }
 
@@ -187,12 +186,21 @@ section {
     }
 
     .achievements {
+        &::before {
+            content: '🏆 Achievements';
+            margin-left: -20px;
+            font-weight: 600;
+        }
         li {
+            margin-top: 20px;
+            font-size: 14px;
             list-style-type: none;
             &::before {
                 content: '✓';
                 margin-right: 5px;
+                margin-left: -20px; /* Adjust this value as needed to match the left margin of the content */
             }
+            margin-bottom: 10px;
         }
     }
 }
@@ -210,6 +218,7 @@ section {
         article {
             ul {
                 li {
+                    font-size: 14px;
                     list-style-type: none;
                     &::before {
                         content: '⁍';
