@@ -27,7 +27,7 @@
       "endDate": "Present",
     "summary": "Led the migration to React + TypeScript, developed reusable components, and created web extensions.",
       "location": "Bogotá D.C., Colombia",
-      "responsibilities": [
+      "achievements": [
         "Migrated applications from Angular 13 to React + TypeScript",
         "Developed reusable components and enhanced user experience",
         "Created web extensions for additional product functionalities",
@@ -41,7 +41,7 @@
       "endDate": "2023-08-01",
       "summary": "Developed, maintained, and deployed features for the TruCare application using Angular 13.",
       "location": "Remote",
-      "responsibilities": [
+      "achievements": [
         "Developed, maintained, and deployed features for the TruCare application using Angular 13"
       ]
     },
@@ -52,7 +52,7 @@
       "endDate": "2023-03-01",
       "summary": "Implemented features for therapist platforms using Angular 12+. Maintained and deployed Flutter mobile applications. Collaborated with QA and design teams to complete features.",
       "location": "Remote",
-      "responsibilities": [
+      "achievements": [
         "Implemented features for therapist platforms using Angular 12+",
         "Maintained and deployed Flutter mobile applications",
         "Collaborated with QA and design teams to complete features"
@@ -65,7 +65,7 @@
       "endDate": "2022-01-01",
       "summary": "Researched micro frontends using SingleSPA JS. Built reusable components in Angular and React with StencilJS. Developed and fixed issues in the Listrunner platform using React.",
       "location": "Remote",
-      "responsibilities": [
+      "achievements": [
         "Researched micro frontends using SingleSPA JS",
         "Built reusable components in Angular and React with StencilJS",
         "Developed and fixed issues in the Listrunner platform using React"
@@ -78,7 +78,7 @@
       "endDate": "2021-08-01",
       "summary": "Developed features and fixed bugs for the Listrunner platform. Integrated Sentry and Intercom services. Researched CSS frameworks for component libraries.",
       "location": "Bogotá D.C., Colombia",
-      "responsibilities": [
+      "achievements": [
         "Developed features and fixed bugs for the Listrunner platform",
         "Integrated Sentry and Intercom services",
         "Researched CSS frameworks for component libraries"
@@ -91,7 +91,7 @@
       "endDate": "2020-08-01",
       "summary": "Developed responsive web pages using Angular 7+. Optimized performance and applied SEO techniques.",
       "location": "Bogotá D.C., Colombia",
-      "responsibilities": [
+      "achievements": [
         "Developed responsive web pages using Angular 7+",
         "Optimized performance and applied SEO techniques"
       ]
@@ -103,7 +103,7 @@
       "endDate": "2019-09-01",
       "summary": "Developed responsive user interfaces with Angular 5+. Migrated legacy apps to Angular 2+.",
       "location": "Santiago de Cali, Colombia",
-      "responsibilities": [
+      "achievements": [
         "Developed responsive user interfaces with Angular 5+",
         "Migrated legacy apps to Angular 2+"
       ]
@@ -115,7 +115,7 @@
       "endDate": "2017-07-01",
       "summary": "Increased test coverage for PHP and AngularJS applications. Automated tasks and generated technical documentation.",
       "location": "Santiago de Cali, Colombia",
-      "responsibilities": [
+      "achievements": [
         "Increased test coverage for PHP and AngularJS applications",
         "Automated tasks and generated technical documentation"
       ]

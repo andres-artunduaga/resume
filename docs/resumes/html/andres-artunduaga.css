@@ -1,0 +1,107 @@
+
+:root {
+    /* Palette */
+    --primary-color: #2f5d91;
+    --secondary-color: #306db2;
+    --tertiary-color: #5021d3;
+    --dark-color: #333;
+    --light-color: #white;
+
+    /* Typography */
+    --font-size: 16px;
+    --font-family: 'Roboto', sans-serif;
+    --line-height: 1.5;
+
+    /* Spacing */
+    --spacing-1: 2px;
+    --spacing-2: 4px;
+    --spacing-3: 8px;
+    --spacing-4: 16px;
+    --spacing-5: 24px;
+    --spacing-6: 32px;
+
+}
+
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    margin: 0;
+    padding: var(--spacing-6);
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+h3, h4, h5, h6 {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        color: red;
+    }
+}
+
+#name {
+    margin-bottom: calc(var(--spacing-5) * -1);
+}
+
+#contact {
+    display: grid;
+    grid-gap: var(--spacing-4);
+    row-gap: 5px;
+
+    .contact-item {
+        display: grid;
+        grid-template-columns: 0.2fr 1fr;
+        .contact-item-label {
+            font-weight: 600;
+        }
+    
+        .contact-item-link {
+            color: var(--tertiary-color);
+        }
+    }
+}
+
+#employment-history {
+    .job {
+        .title {
+            margin-bottom: 0;
+        }
+        .timeframe {
+            &::before {
+                content: '🕒';
+                margin-right: 5px;
+            }
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .location {
+            &::before {
+                content: '📍';
+                margin-right: 5px;
+            }
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+
+    .achievements {
+        li {
+            list-style-type: none;
+            &::before {
+                content: '✓';
+                margin-right: 5px;
+            }
+        }
+    }
+}

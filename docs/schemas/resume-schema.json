@@ -42,15 +42,19 @@
           "responsibilities": {
             "type": "array",
             "items": { "type": "string" }
+          },
+          "achievements": {
+            "type": "array",
+            "items": { "type": "string" }
           }
         },
         "required": [
           "company",
           "role",
+          "summary",
           "startDate",
           "endDate",
-          "location",
-          "responsibilities"
+          "location"
         ]
       }
     },
