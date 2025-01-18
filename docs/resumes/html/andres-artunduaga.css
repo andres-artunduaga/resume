@@ -1,8 +1,8 @@
 
 :root {
     /* Palette */
-    --primary-color: #2f5d91;
-    --secondary-color: #306db2;
+    --primary-color: #020024;
+    --secondary-color: #0f96b1; /* #0f96b1 */
     --tertiary-color: #5021d3;
     --dark-color: #333;
     --light-color: white;
@@ -20,6 +20,16 @@
     --spacing-5: 24px;
     --spacing-6: 32px;
 
+    /* Breakpoints */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
@@ -36,7 +46,11 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(45deg,#0f96b1, #020024);
+    background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+
+    @media (max-width: 576px) {
+        padding: 0;
+    }
 }
 
 h1, h2 {
@@ -56,11 +70,22 @@ a {
     }
 }
 
+section {
+    border-bottom: 1px dashed var(--primary-color);
+    padding-bottom: var(--spacing-5);
+}
+
 #page {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: var(--spacing-6);
     max-width: 1000px;
+    min-width: 300px;
+    width: 100%;
     background-color: var(--light-color);
+
+    @media (max-width: 576px) {
+        padding: 8;
+    }
     
 }
 
@@ -68,14 +93,66 @@ a {
     margin-bottom: calc(var(--spacing-5) * -1);
 }
 
+#title {
+    &::before {
+        content: '👨🏻‍💻';
+        margin-right: 5px;
+    }
+}
+
 #contact {
     display: grid;
     grid-gap: var(--spacing-4);
     row-gap: 5px;
 
+    #email {
+        .contact-item-label {
+            &::before {
+                content: '📧 ';
+            }
+        }
+    }
+
+    #phone {
+        .contact-item-label {
+            &::before {
+                content: '📞 ';
+            }
+        }
+    }
+
+    #portfolio {
+        .contact-item-label {
+            &::before {
+                content: '🌐 ';
+            }
+        }
+    }
+
+    #linkedin {
+        .contact-item-label {
+            &::before {
+                content: '🔗 ';
+            }
+        }
+    }
+
+    #github {
+        .contact-item-label {
+            &::before {
+                content: '🐙 ';
+            }
+        }
+    }
+
     .contact-item {
         display: grid;
         grid-template-columns: 0.2fr 1fr;
+
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr;
+        }
+
         .contact-item-label {
             font-weight: 600;
         }
@@ -114,6 +191,48 @@ a {
             list-style-type: none;
             &::before {
                 content: '✓';
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+#skills {
+    .skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 5px;
+
+        @media screen and (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;   
+        }
+
+        article {
+            ul {
+                li {
+                    list-style-type: none;
+                    &::before {
+                        content: '⁍';
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#education {
+    .education {
+        .degree {
+            &::before {
+                content: '🎓';
+                margin-right: 5px;
+            }
+
+        }
+        .location {
+            &::before {
+                content: '📍';
                 margin-right: 5px;
             }
         }
